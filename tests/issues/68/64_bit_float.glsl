@@ -1,5 +1,5 @@
 #version 460 core
-#extension GL_ARB_separate_shader_objects : enable
+#extension GL_ARB_separate_shader_objects : disable
 
 layout(location=0) in dvec2 position;
 layout(location=1) in double in_thing;
